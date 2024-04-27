@@ -13,6 +13,7 @@ li {
 }
 body {
     font-family: roboto ;
+    background-color: rgb(143, 174, 201);
 }
 
 /* ends global rules */
@@ -30,7 +31,7 @@ body {
 .container {
    
     margin: auto;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -75,8 +76,56 @@ body {
 
 .header .links .icon span:last-child {
     width: 100%;
-    height: 2px;
+    height: 2.5px;
 }
+
+.header .links ul {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 8%, 85%);
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    text-align: center;
+    top: calc(100% + 20px);
+    display: none;
+}
+
+.header .links ul::before {
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent hsl(0, 8%, 85%) transparent;
+    position: absolute;
+    right: 5px;
+    top: -19px;
+}
+
+.header .links:hover ul {
+    display: block;
+}
+
+
+
+.header .links ul li a {
+    padding: 10px;
+    color: rebeccapurple;
+    /* margin-bottom: 20px; */
+    display: block;
+    transition: 0.3s;
+}
+
+.header .links ul li:not(:last-child){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.642);
+}
+
+.header .links ul li a:hover {
+    background-color: white;
+    padding-left: 20px;
+}
+
+
+
 
 
 
