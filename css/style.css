@@ -13,7 +13,7 @@ li {
 }
 body {
     font-family: roboto ;
-    background-color: rgb(143, 174, 201);
+    background-color: rgb(105, 129, 129);
 }
 
 /* ends global rules */
@@ -122,6 +122,37 @@ body {
 .header .links ul li a:hover {
     background-color: white;
     padding-left: 20px;
+}
+
+/* start styling the landing page*/
+
+.landing {
+    background-image: url(/photos/landing.jpg);
+    background-size: cover;
+    height: calc(100vh - 100px);
+}
+
+.landing .description {
+    position: absolute;
+    
+    top: 30%;
+    text-align: center;
+    padding: 10%;
+}
+
+.landing .description h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-transform: capitalize;
+    color: steelblue;
+    font-family: system-ui;
+    font-size: -webkit-xxx-large;
+}
+
+.landing .description p {
+    color: rgb(146, 162, 178);
+    font-size: larger;
+    text-align: start;
 }
 
 
