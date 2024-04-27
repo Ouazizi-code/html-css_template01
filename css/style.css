@@ -1,0 +1,14 @@
+/* atart grolabl rules */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto ;
+}
+
+/* ends global rules */
+h1 {
+    color: red;
+}
