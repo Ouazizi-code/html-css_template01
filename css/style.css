@@ -135,7 +135,7 @@ body {
 .landing .description {
     position: absolute;
     
-    top: 30%;
+    top: 20%;
     text-align: center;
     padding: 10%;
 }
@@ -153,6 +153,41 @@ body {
     color: rgb(146, 162, 178);
     font-size: larger;
     text-align: start;
+}
+
+
+/* start styling the features section */
+
+.features {
+    background-color: rgb(161, 179, 188);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.features .container .feat i {
+    font-size: xxx-large;
+    color: steelblue;
+}
+
+.features .container .feat {
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.special-header {
+    font-size: xxx-large;
+    margin-bottom: 70px;
+    color: slategray;
+    font-family: inherit;
+    display: block;
+    text-align: center;
 }
 
 
