@@ -196,40 +196,33 @@ html {
 
 /* start styling contact section */
 
-.contact1 {
-    width: 100%;
-    min-height: 100%;
-    padding: 15px;
-    background: #009bff;
-    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
-    background: -o-linear-gradient(left, #0072ff, #00c6ff);
-    background: -moz-linear-gradient(left, #0072ff, #00c6ff);
-    background: linear-gradient(left, #0072ff, #00c6ff);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+
+
+
+
+.contact-form form  {
+  display: block;
 }
 
-.container-contact1 {
-    width: 1163px;
-    background: #fff;
+.contact-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.439);
+    border: none;
     border-radius: 10px;
-    overflow: hidden;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 90px 130px 88px 148px;
 }
+
+
+.contact-form .send-button {
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
 
 /* start styling the footer */  
 
@@ -357,6 +350,10 @@ html {
 @media (min-width: 992px) {
     .container {
         width: 970px;
+    }
+
+    .contact-form input {
+        width: 500px;
     }
 }
 
