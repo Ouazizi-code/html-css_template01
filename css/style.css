@@ -196,32 +196,39 @@ html {
 
 /* start styling contact section */
 
-
-
-
-
-.contact-form form  {
-  display: block;
-}
-
-.contact-form input {
-    padding: 10px;
-    margin-bottom: 15px;
+input[type=text], select, textarea {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.439);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #24262b83;
+    color: #fffffff4;
+  }
+  
+  input[type=submit] {
+    background-color: #1f90c9;
+    color: white;
+    padding: 12px 20px;
     border: none;
-    border-radius: 10px;
-}
-
-
-.contact-form .send-button {
-    display: inline-block;
-    text-align: center;
-}
-
-
-
-
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5577ae;
+  }
+  
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 200px;
+  }
 
 
 /* start styling the footer */  
@@ -352,8 +359,9 @@ html {
         width: 970px;
     }
 
-    .contact-form input {
+    .container1 {
         width: 500px;
+        margin-left: 30%;
     }
 }
 
