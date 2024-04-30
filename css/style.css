@@ -47,6 +47,7 @@ html {
 
 .header .links {
     position: relative;
+    z-index: 5;
 }
 
 .header .links .icon {
