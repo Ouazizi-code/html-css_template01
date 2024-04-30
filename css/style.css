@@ -131,7 +131,7 @@ html {
 /* start styling the landing page*/
 
 .landing {
-    background-image: url(/photos/landing.jpg);
+    background-image: url(../photos/landing.jpg);
     background-size: cover;
     height: calc(100vh - 100px);
 }
